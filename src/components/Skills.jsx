@@ -10,6 +10,7 @@ export const Skills = () => {
     "Git",
     "Azure DevOps",
     "App Launching",
+    "CICD (GitHub Actions)",
     "App Maintenance",
     "HTML",
     "Jest",

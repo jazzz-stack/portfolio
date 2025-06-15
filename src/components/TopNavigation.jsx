@@ -7,7 +7,7 @@ export const TopNavigation = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 p-4 flex justify-between font-bold font-sans text-white items-center bg-gradient-to-r from-blue-600 to-blue-600 shadow-md">
+    <nav className="sticky top-0 z-50 p-4 flex justify-between font-bold font-sans text-white items-center bg-gradient-to-r from-purple-600 via-blue-400 to-purple-600 shadow-md">
       <div>Portfolio</div>
       <div>
         <button
