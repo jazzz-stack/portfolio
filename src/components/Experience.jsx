@@ -63,7 +63,7 @@ export const Experience = () => {
         <h2 className="text-3xl font-bold mb-8 text-center">Experience</h2>
         <div className="space-y-8">
           {experiences.map((exp, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-blue-300 shadow-blue-200 hover:shadow-lg transition-shadow">
               <div className="flex justify-between items-start mb-4">
                 <div>
                   <h3 className="text-xl font-bold text-blue-600">{exp.role}</h3>

@@ -119,7 +119,7 @@ export const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className={`bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow ${
+              className={`bg-white p-6 rounded-lg shadow-blue-200 hover:shadow-blue-300 shadow-md hover:shadow-lg transition-shadow ${
                 project.appLink ? "cursor-pointer" : ""
               }`}
               onClick={() => {

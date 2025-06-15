@@ -1,9 +1,28 @@
 export const Skills = () => {
   const skills = [
-    "React Native", "Reactjs", "JavaScript & ES6", "Jest", "JSX", "CSS",
-    "TypeScript", "RESTful API's", "Redux", "GitHub", "Azure DevOps",
-    "Socket API", "Redux-toolkit", "GraphQL", "AppDynamics", "Git",
-    "ServiceNow", "React-Bootstrap", "App Store & Play Store", "Full Story"
+    "React Native",
+    "ReactJS",
+    "JavaScript",
+    "TypeScript",
+    "Redux",
+    "Redux-toolkit",
+    "ES6",
+    "Git",
+    "Azure DevOps",
+    "App Launching",
+    "App Maintenance",
+    "HTML",
+    "Jest",
+    "JSX",
+    "CSS",
+    "RESTful API's",
+    "GitHub",
+    "Socket API",
+    "GraphQL",
+    "AppDynamics",
+    "ServiceNow",
+    "React-Bootstrap",
+    "Full Story",
   ];
 
   return (
@@ -14,7 +33,7 @@ export const Skills = () => {
           {skills.map((skill, index) => (
             <span
               key={index}
-              className="bg-white px-4 py-2 rounded-full shadow-sm hover:shadow-md transition-shadow duration-200 text-blue-600"
+              className="bg-white px-4 py-2 rounded-full shadow-sm shadow-blue-300 hover:shadow-blue-300 hover:shadow-lg transition-shadow duration-200 text-blue-600"
             >
               {skill}
             </span>

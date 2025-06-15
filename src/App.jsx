@@ -13,7 +13,7 @@ import { About } from './components/About';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-blue-50">
         <TopNavigation />
         <Hero />
         <About />

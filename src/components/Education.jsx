@@ -9,6 +9,16 @@ export const Education = () => {
       degree: "Bachelor of Computer Application",
       institution: "Makhanlal Chaturvedi National University",
       period: "12/2013 - 06/2016"
+    },
+    {
+      degree: "Class XII",
+      institution: "KISAN INTER COLLEGE PARASHURAMPUR BASTI",
+      period: "06/2011 - 06/2013"
+    },
+    {
+      degree: "Class X",
+      institution: "ADARSH I C MAKHAURA DHAM BASTI",
+      period: "06/2010 - 06/2011"
     }
   ];
 
