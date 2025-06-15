@@ -1,22 +1,28 @@
 import { } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
+
+import { TopNavigation } from './components/TopNavigation';
+import { Hero } from './components/Hero';
+import { Skills } from './components/Skills';
+import { Experience } from './components/Experience';
+import { Projects } from './components/Projects';
+import { Education } from './components/Education';
+import { About } from './components/About';
 
 function App() {
   return (
-    <div className=" bg-gray-200 h-screen justify-around items-baseline flex flex-row gap-4">
-        <div className="px-4 py-2 bg-gray-400 rounded-lg cursor-pointer">
-          Home
-        </div>
-        <div className="px-4 py-2 bg-gray-400 rounded-lg cursor-pointer">
-          About
-        </div>
-        <div className="px-4 py-2 bg-gray-400 rounded-lg cursor-pointer">
-          Contact
-        </div>
-        <div className="px-4 py-2 bg-gray-400 rounded-lg cursor-pointer">
-          Services
-        </div>
-    </div>
+    <Router>
+      <div className="min-h-screen bg-gray-50">
+        <TopNavigation />
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Education />
+      </div>
+    </Router>
   );
 }
 
