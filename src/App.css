@@ -1,0 +1,31 @@
+/* Page transition effects */
+.page-transition {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.page-transition-enter {
+  opacity: 0;
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+}
+
+.page-transition-exit {
+  opacity: 1;
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+}
+
+/* Ensure smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add some base transitions for smoother navigation */
+* {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
